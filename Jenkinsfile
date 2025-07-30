@@ -40,7 +40,7 @@ pipeline{
 		stage('restart-httpd'){
 
 			steps{
-				sh 'service httpd restart*'
+				sh 'mkdir aniket123'
 				
 }
 
