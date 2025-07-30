@@ -2,7 +2,7 @@ pipeline{
       agent{
 		label{
 			label 'built-in'
-			customeWorkspace '/mnt/projects/vel-app/jenkins'
+			customWorkspace '/mnt/projects/vel-app/jenkins'
 }
 }
 
