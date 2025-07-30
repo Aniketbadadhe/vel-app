@@ -29,7 +29,7 @@ pipeline{
 
 
 }
-		stage(index-deploy'){
+		stage('index-deploy'){
 
 			steps{
 				sh 'cp -r index.html/var/www/html'
